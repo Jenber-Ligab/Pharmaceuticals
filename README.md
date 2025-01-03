@@ -1,10 +1,7 @@
-### **BUSINESS NEED**
-You work at Rossmann Pharmaceuticals as a Machine Learning Engineer. The finance team wants to forecast sales in all their stores across several cities six weeks ahead of time. Managers in individual stores rely on their years of experience as well as their personal judgment to forecast sales. 
+# rossmann-pharma-sales-prediction
 
-The data team identified factors such as promotions, competition, school and state holidays, seasonality, and locality as necessary for predicting the sales across the various stores.
-
-Your job is to build and serve an end-to-end product that delivers this prediction to analysts in the finance team. 
-
+A machine learning solution to forecast sales for Rossmann Pharmaceuticals' stores across various cities six weeks in advance. Factors like promotions, competition, holidays, seasonality, and locality are considered for accurate predictions.
+The project structure is organized to support reproducible and scalable data processing, modeling, and visualization.
 
 ## **PROJECT FOLDER STRUCUTR**
 ```
@@ -34,3 +31,24 @@ Your job is to build and serve an end-to-end product that delivers this predicti
         __init__.py
         
 ```
+# Installation
+
+>>> git clone https://github.com/Jenber-Ligab/Pharmaceuticals
+
+>> cd Pharmaceuticals
+
+### Create virtual environment
+
+>>> python3 -m venv .venv-w4 # on MacOs or Linux
+
+>>> source .venv-w4/bin/activate  # On Windows: venv\Scripts\activate
+
+### Install Dependencies
+
+>>> pip install -r requirements.txt
+
+## To run tests
+navigate 
+>>> cd tests/
+
+>>pytest # all tests will be tested
