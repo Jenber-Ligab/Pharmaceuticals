@@ -1,2 +1,6 @@
 .venv-w4
 /Data
+/scripts/__pycache*
+/notebooks/sales_model*
+/API/model.pkl
+/API/__pycache*
